@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin",
+    "symbol": "btc",
+    "marketCapAth": 2100629850065,
+    "marketCap": 1956131238495,
+    "imageName": "bitcoin.png"
+  },
+  {
+    "id": "ethereum",
+    "name": "Ethereum",
+    "symbol": "eth",
+    "marketCapAth": 571665766496,
+    "marketCap": 338045546412,
+    "imageName": "ethereum.png"
+  },
+  {
+    "id": "ripple",
+    "name": "XRP",
+    "symbol": "xrp",
+    "marketCapAth": 190386076856,
+    "marketCap": 154865499598,
+    "imageName": "xrp.png"
+  },
+  {
+    "id": "tether",
+    "name": "Tether",
+    "symbol": "usdt",
+    "marketCapAth": 142018214891,
+    "marketCap": 142233325951,
+    "imageName": "tether.png"
+  },
+  {
+    "id": "solana",
+    "name": "Solana",
+    "symbol": "sol",
+    "marketCapAth": 127785165817,
+    "marketCap": 87626789584,
+    "imageName": "solana.png"
+  },
+  {
+    "id": "binancecoin",
+    "name": "BNB",
+    "symbol": "bnb",
+    "marketCapAth": 110441230385,
+    "marketCap": 96768149121,
+    "imageName": "bnb.png"
+  },
+  {
+    "id": "cardano",
+    "name": "Cardano",
+    "symbol": "ada",
+    "marketCapAth": 95003730488,
+    "marketCap": 28929322267,
+    "imageName": "cardano.png"
+  },
+  {
+    "id": "dogecoin",
+    "name": "Dogecoin",
+    "symbol": "doge",
+    "marketCapAth": 88794768977,
+    "marketCap": 37971972143,
+    "imageName": "dogecoin.png"
+  },
+  {
+    "id": "bitcoin-cash",
+    "name": "Bitcoin Cash",
+    "symbol": "bch",
+    "marketCapAth": 63855944427,
+    "marketCap": 6573148684,
+    "imageName": "bitcoin_cash.png"
+  },
+  {
+    "id": "polkadot",
+    "name": "Polkadot",
+    "symbol": "dot",
+    "marketCapAth": 56578310063,
+    "marketCap": 7834257572,
+    "imageName": "polkadot.png"
+  }
+]
