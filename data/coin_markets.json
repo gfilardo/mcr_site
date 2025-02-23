@@ -4,7 +4,7 @@
     "name": "Bitcoin",
     "symbol": "btc",
     "marketCapAth": 2100629850065,
-    "marketCap": 1956131238495,
+    "marketCap": 1916481495551,
     "imageName": "bitcoin.png"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Ethereum",
     "symbol": "eth",
     "marketCapAth": 571665766496,
-    "marketCap": 338045546412,
+    "marketCap": 335012356153,
     "imageName": "ethereum.png"
   },
   {
@@ -20,15 +20,15 @@
     "name": "XRP",
     "symbol": "xrp",
     "marketCapAth": 190386076856,
-    "marketCap": 154865499598,
+    "marketCap": 150067822250,
     "imageName": "xrp.png"
   },
   {
     "id": "tether",
     "name": "Tether",
     "symbol": "usdt",
-    "marketCapAth": 142018214891,
-    "marketCap": 142233325951,
+    "marketCapAth": 142128586355,
+    "marketCap": 142486539101,
     "imageName": "tether.png"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Solana",
     "symbol": "sol",
     "marketCapAth": 127785165817,
-    "marketCap": 87626789584,
+    "marketCap": 84675273772,
     "imageName": "solana.png"
   },
   {
@@ -44,7 +44,7 @@
     "name": "BNB",
     "symbol": "bnb",
     "marketCapAth": 110441230385,
-    "marketCap": 96768149121,
+    "marketCap": 96199240510,
     "imageName": "bnb.png"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Cardano",
     "symbol": "ada",
     "marketCapAth": 95003730488,
-    "marketCap": 28929322267,
+    "marketCap": 27801440383,
     "imageName": "cardano.png"
   },
   {
@@ -60,23 +60,23 @@
     "name": "Dogecoin",
     "symbol": "doge",
     "marketCapAth": 88794768977,
-    "marketCap": 37971972143,
+    "marketCap": 36430127412,
     "imageName": "dogecoin.png"
   },
   {
-    "id": "bitcoin-cash",
-    "name": "Bitcoin Cash",
-    "symbol": "bch",
-    "marketCapAth": 63855944427,
-    "marketCap": 6573148684,
-    "imageName": "bitcoin_cash.png"
+    "id": "usd-coin",
+    "name": "USDC",
+    "symbol": "usdc",
+    "marketCapAth": 57200106376,
+    "marketCap": 57091338816,
+    "imageName": "usdc.png"
   },
   {
-    "id": "polkadot",
-    "name": "Polkadot",
-    "symbol": "dot",
-    "marketCapAth": 56578310063,
-    "marketCap": 7834257572,
-    "imageName": "polkadot.png"
+    "id": "shiba-inu",
+    "name": "Shiba Inu",
+    "symbol": "shib",
+    "marketCapAth": 41191243533,
+    "marketCap": 9173695063,
+    "imageName": "shiba_inu.png"
   }
 ]
