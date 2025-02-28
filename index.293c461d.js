@@ -597,21 +597,48 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"dDe6p":[function(require,module,exports,__globalThis) {
 var _racingBars = require("racing-bars");
-let firstDate = new Date();
-document.addEventListener('DOMContentLoaded', async ()=>{
-    const top_coins_history = await (await fetch('data/top_coins_history.csv', {
-        headers: {
-            'Content-Type': 'text/csv',
-            'Accept': 'text/csv'
-        }
-    })).text();
-    const coin_markets = await (await fetch('data/coin_markets.json', {
-        headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-        }
-    })).json();
-    //get the first coins by marketcapath, and the first ones by marketcap, then unite them
+const MAX_COINS = 15;
+const coinsData = new Map();
+let selectedCoins = new Set();
+let selectedCoinsRows = [];
+// Function to load coin data from network
+async function loadCoinData(coinId) {
+    try {
+        return (await fetch(`data/history/${coinId}.csv`, {
+            headers: {
+                'Content-Type': 'text/csv',
+                'Accept': 'text/csv'
+            }
+        })).text();
+    } catch (error) {
+        console.error(`Error loading data for coin ${coinId}:`, error);
+        return null;
+    }
+}
+// Function to parse CSV data into chart objects
+function parseCSVData(csvData, coinId, coinImageDict) {
+    if (!csvData) return [];
+    return csvData.split('\n').slice(1) // Skip header
+    .map((row)=>{
+        const [dateStr, value] = row.split(',');
+        return {
+            date: new Date(dateStr),
+            name: coinId,
+            value: parseFloat(value),
+            icon: `/icons/${coinImageDict[coinId]}`
+        };
+    }).filter((obj)=>!isNaN(obj.value) && obj.date);
+}
+// Function to update selectedCoinsRows from coinsData
+function updateSelectedCoinsRows() {
+    selectedCoinsRows = Array.from(selectedCoins).flatMap((coinId)=>coinsData.get(coinId) || []);
+}
+const init = async ()=>{
+    const [top_coins_history, coin_markets] = await Promise.all([
+        fetch('data/top_coins_history.csv').then((r)=>r.text()),
+        fetch('data/coin_markets.json').then((r)=>r.json())
+    ]);
+    //get the first coins by marketcapath, and the first ones by marketcapAth, then unite them
     function topCoins(coins, nCoins, property) {
         return coins.sort((a, b)=>b[property] - a[property]).slice(0, nCoins).map((c)=>({
                 id: c.id,
@@ -626,26 +653,24 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     const top_coins = topCoins(coin_markets, 10, 'marketCap');
     const all_coins = top_coins_ath.concat(top_coins);
     const coins = all_coins.filter((coin, index, self)=>index === self.findIndex((t)=>t.id === coin.id));
-    console.log(coins);
     //save a dictionary between the coin id and the image name
     const coinImageDict = coin_markets.reduce((acc, coin)=>{
-        acc[coin.name] = coin.imageName;
+        acc[coin.id] = coin.imageName;
         return acc;
     }, {});
-    //parse the csv data
-    const rows = top_coins_history.split('\n').slice(1).map(function(row) {
-        const [dateStr, name, value] = row.split(',');
-        const obj = {
+    // Parse the initial combined history data into the coinsData map
+    const rows = top_coins_history.split('\n').slice(1);
+    for (const row of rows){
+        const [dateStr, coinId, value] = row.split(',');
+        if (!coinsData.has(coinId)) coinsData.set(coinId, []);
+        const dataPoint = {
             date: new Date(dateStr),
-            name,
-            value,
-            icon: `/icons/${coinImageDict[name]}`
+            name: coinId,
+            value: parseFloat(value),
+            icon: `/icons/${coinImageDict[coinId]}`
         };
-        if (obj.date === null || name === null || value === null) return null;
-        return obj;
-    }).filter((row)=>row !== null);
-    console.log(rows[0], rows[1]);
-    console.log(document.getElementById('race'));
+        if (dataPoint.date && !isNaN(dataPoint.value)) coinsData.get(coinId).push(dataPoint);
+    }
     const options = {
         labelsPosition: 'outside',
         showIcons: true,
@@ -653,10 +678,155 @@ document.addEventListener('DOMContentLoaded', async ()=>{
         tickDuration: 150,
         theme: 'dark'
     };
-    console.time();
-    (0, _racingBars.race)(rows, '#race', options);
-    console.timeEnd();
-});
+    // Function to calculate chart height based on number of coins
+    function calculateChartHeight(numCoins) {
+        return Math.max(300, 50 + numCoins * 25) + 'px';
+    }
+    // Function to update chart height
+    function updateChartHeight(numCoins) {
+        const raceChart = document.getElementById('race');
+        raceChart.style.height = calculateChartHeight(numCoins);
+    }
+    // Create initial selection and update rows
+    selectedCoins = new Set(coins.map((coin)=>coin.id));
+    updateSelectedCoinsRows();
+    // Function to check if current selection matches initial selection
+    function isInitialSelection() {
+        if (selectedCoins.size !== coins.length) return false;
+        return Array.from(selectedCoins).every((coinId)=>coins.some((coin)=>coin.id === coinId));
+    }
+    // Function to update refresh button state
+    function updateRefreshButtonState() {
+        const refreshButton = document.querySelector('.refresh-coins');
+        if (isInitialSelection()) refreshButton.classList.add('disabled');
+        else refreshButton.classList.remove('disabled');
+    }
+    // Function to create coin element
+    function createCoinElement(coin, isAvailable = false) {
+        const coinDiv = document.createElement('div');
+        coinDiv.className = isAvailable ? 'available-coin-item' : 'coin-item';
+        const img = document.createElement('img');
+        img.src = `/icons/${coinImageDict[coin.id]}`;
+        img.alt = coin.name;
+        const name = document.createTextNode(coin.name);
+        coinDiv.appendChild(img);
+        coinDiv.appendChild(name);
+        const button = document.createElement('button');
+        button.className = isAvailable ? 'add-coin' : 'remove-coin';
+        button.innerHTML = isAvailable ? '+' : "\xd7";
+        button.setAttribute('aria-label', isAvailable ? `Add ${coin.name}` : `Remove ${coin.name}`);
+        if (isAvailable && selectedCoins.size >= MAX_COINS) {
+            button.disabled = true;
+            coinDiv.classList.add('disabled');
+        }
+        coinDiv.appendChild(button);
+        if (isAvailable) {
+            const handleClick = async ()=>{
+                if (!selectedCoins.has(coin.id) && selectedCoins.size < MAX_COINS) {
+                    // Load coin data if not already loaded
+                    if (!coinsData.has(coin.id)) {
+                        const csvData = await loadCoinData(coin.id);
+                        const parsedData = parseCSVData(csvData, coin.id, coinImageDict);
+                        coinsData.set(coin.id, parsedData);
+                    }
+                    selectedCoins.add(coin.id);
+                    const selectedCoinElement = createCoinElement(coin);
+                    document.getElementById('coin-selector').appendChild(selectedCoinElement);
+                    handleCoinSelection();
+                    updateRefreshButtonState();
+                    // Update the view of selected coins
+                    updateSelectedCoinsRows();
+                    // Update chart height and redraw
+                    document.getElementById('race').innerHTML = '';
+                    updateChartHeight(selectedCoins.size);
+                    (0, _racingBars.race)(selectedCoinsRows, '#race', options);
+                }
+            };
+            button.addEventListener('click', handleClick);
+            if (selectedCoins.size < MAX_COINS) coinDiv.addEventListener('click', handleClick);
+        } else {
+            const handleRemove = ()=>{
+                const coinId = coin.id;
+                selectedCoins.delete(coinId);
+                coinDiv.remove();
+                updateAvailableCoins(searchInput.value.trim());
+                updateRefreshButtonState();
+                // Update the view of selected coins
+                updateSelectedCoinsRows();
+                // Update chart height and redraw
+                document.getElementById('race').innerHTML = '';
+                updateChartHeight(selectedCoins.size);
+                (0, _racingBars.race)(selectedCoinsRows, '#race', options);
+            };
+            button.addEventListener('click', handleRemove);
+            coinDiv.addEventListener('click', handleRemove);
+            coinDiv.style.cursor = 'pointer';
+        }
+        return coinDiv;
+    }
+    // Function to update available coins
+    function updateAvailableCoins(searchTerm = '') {
+        const availableCoinsDiv = document.getElementById('available-coins');
+        availableCoinsDiv.innerHTML = '';
+        const searchLower = searchTerm.toLowerCase();
+        coin_markets.forEach((coin)=>{
+            if (!selectedCoins.has(coin.id) && (searchTerm === '' || coin.name.toLowerCase().includes(searchLower) || coin.symbol.toLowerCase().includes(searchLower))) {
+                const coinElement = createCoinElement(coin, true);
+                availableCoinsDiv.appendChild(coinElement);
+            }
+        });
+    }
+    // Function to reset to initial selection
+    function resetToInitialSelection() {
+        if (isInitialSelection()) return;
+        // Clear current selection
+        coinSelector.innerHTML = '';
+        selectedCoins = new Set(coins.map((coin)=>coin.id));
+        // Repopulate with initial coins
+        coin_markets.forEach((coin)=>{
+            if (selectedCoins.has(coin.id)) {
+                const coinElement = createCoinElement(coin);
+                coinSelector.appendChild(coinElement);
+            }
+        });
+        // Update available coins and selection state
+        updateAvailableCoins();
+        updateRefreshButtonState();
+        updateSelectedCoinsRows();
+        // Update chart height and redraw
+        document.getElementById('race').innerHTML = '';
+        updateChartHeight(selectedCoins.size);
+        (0, _racingBars.race)(selectedCoinsRows, '#race', options);
+    }
+    // Setup refresh button functionality
+    const refreshButton = document.querySelector('.refresh-coins');
+    refreshButton.addEventListener('click', resetToInitialSelection);
+    // Setup search functionality
+    const searchInput = document.getElementById('coin-search');
+    searchInput.addEventListener('input', (e)=>{
+        updateAvailableCoins(e.target.value.trim());
+    });
+    // Add coin selection handler to clear search
+    const handleCoinSelection = ()=>{
+        searchInput.value = '';
+        updateAvailableCoins();
+    };
+    // Populate the coin selector with initially selected coins
+    const coinSelector = document.getElementById('coin-selector');
+    coin_markets.forEach((coin)=>{
+        if (selectedCoins.has(coin.id)) {
+            const coinElement = createCoinElement(coin);
+            coinSelector.appendChild(coinElement);
+        }
+    });
+    // Initialize available coins and refresh button state
+    updateAvailableCoins();
+    updateRefreshButtonState();
+    // Initial chart rendering with selected coins
+    updateChartHeight(selectedCoins.size);
+    (0, _racingBars.race)(selectedCoinsRows, '#race', options);
+};
+init().catch(console.error);
 
 },{"racing-bars":"kB7Ff"}],"kB7Ff":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
