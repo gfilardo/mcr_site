@@ -4,7 +4,7 @@
     "name": "Bitcoin",
     "symbol": "btc",
     "marketCapAth": 2100629850065,
-    "marketCap": 1674442685881,
+    "marketCap": 1680575726811,
     "imageName": "bitcoin.png"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Ethereum",
     "symbol": "eth",
     "marketCapAth": 571665766496,
-    "marketCap": 263107392573,
+    "marketCap": 260123467325,
     "imageName": "ethereum.png"
   },
   {
@@ -20,7 +20,7 @@
     "name": "XRP",
     "symbol": "xrp",
     "marketCapAth": 190386076856,
-    "marketCap": 124426748215,
+    "marketCap": 124344324663,
     "imageName": "xrp.png"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Tether",
     "symbol": "usdt",
     "marketCapAth": 142498638056,
-    "marketCap": 142126608576,
+    "marketCap": 142127988772,
     "imageName": "tether.png"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Solana",
     "symbol": "sol",
     "marketCapAth": 127785165817,
-    "marketCap": 71089591148,
+    "marketCap": 70967678490,
     "imageName": "solana.png"
   },
   {
@@ -44,7 +44,7 @@
     "name": "BNB",
     "symbol": "bnb",
     "marketCapAth": 110441230385,
-    "marketCap": 86431851865,
+    "marketCap": 87475585549,
     "imageName": "bnb.png"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Cardano",
     "symbol": "ada",
     "marketCapAth": 95003730488,
-    "marketCap": 22780140636,
+    "marketCap": 22706472187,
     "imageName": "cardano.png"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Dogecoin",
     "symbol": "doge",
     "marketCapAth": 88794768977,
-    "marketCap": 29958621073,
+    "marketCap": 29811766638,
     "imageName": "dogecoin.png"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Bitcoin Cash",
     "symbol": "bch",
     "marketCapAth": 63855944427,
-    "marketCap": 6155671003,
+    "marketCap": 6137958722,
     "imageName": "bitcoin_cash.png"
   },
   {
@@ -76,7 +76,7 @@
     "name": "USDC",
     "symbol": "usdc",
     "marketCapAth": 57200106376,
-    "marketCap": 56363588668,
+    "marketCap": 56352236549,
     "imageName": "usdc.png"
   },
   {
@@ -84,23 +84,39 @@
     "name": "Aave",
     "symbol": "aave",
     "marketCapAth": 7953335447,
-    "marketCap": 2803835914,
+    "marketCap": 2791229888,
     "imageName": "aave.png"
+  },
+  {
+    "id": "algorand",
+    "name": "Algorand",
+    "symbol": "algo",
+    "marketCapAth": 13397094706,
+    "marketCap": 2003857730,
+    "imageName": "algorand.png"
   },
   {
     "id": "aptos",
     "name": "Aptos",
     "symbol": "apt",
     "marketCapAth": 7890290618,
-    "marketCap": 3813183140,
+    "marketCap": 3738400587,
     "imageName": "aptos.png"
+  },
+  {
+    "id": "arbitrum",
+    "name": "Arbitrum",
+    "symbol": "arb",
+    "marketCapAth": 4820530717,
+    "marketCap": 1794869272,
+    "imageName": "arbitrum.jpg"
   },
   {
     "id": "avalanche-2",
     "name": "Avalanche",
     "symbol": "avax",
     "marketCapAth": 30066351594,
-    "marketCap": 8889063469,
+    "marketCap": 8778879462,
     "imageName": "avalanche.png"
   },
   {
@@ -108,7 +124,7 @@
     "name": "Bitget Token",
     "symbol": "bgb",
     "marketCapAth": 11421751390,
-    "marketCap": 4766846175,
+    "marketCap": 4773931797,
     "imageName": "bitget_token.png"
   },
   {
@@ -116,7 +132,7 @@
     "name": "Bittensor",
     "symbol": "tao",
     "marketCapAth": 5251065561,
-    "marketCap": 2698016587,
+    "marketCap": 2691193233,
     "imageName": "bittensor.jpeg"
   },
   {
@@ -124,7 +140,7 @@
     "name": "Celestia",
     "symbol": "tia",
     "marketCapAth": 3920897920,
-    "marketCap": 2222278024,
+    "marketCap": 2216154609,
     "imageName": "celestia.jpg"
   },
   {
@@ -132,7 +148,7 @@
     "name": "Chainlink",
     "symbol": "link",
     "marketCapAth": 22037403035,
-    "marketCap": 9238643983,
+    "marketCap": 9151851068,
     "imageName": "chainlink.png"
   },
   {
@@ -140,15 +156,31 @@
     "name": "Coinbase Wrapped BTC",
     "symbol": "cbbtc",
     "marketCapAth": 2653644437,
-    "marketCap": 2414348580,
+    "marketCap": 2420609238,
     "imageName": "coinbase_wrapped_btc.webp"
+  },
+  {
+    "id": "cosmos",
+    "name": "Cosmos Hub",
+    "symbol": "atom",
+    "marketCapAth": 12451582328,
+    "marketCap": 1950391926,
+    "imageName": "cosmos_hub.png"
+  },
+  {
+    "id": "crypto-com-chain",
+    "name": "Cronos",
+    "symbol": "cro",
+    "marketCapAth": 22766071274,
+    "marketCap": 1973483668,
+    "imageName": "cronos.png"
   },
   {
     "id": "dai",
     "name": "Dai",
     "symbol": "dai",
     "marketCapAth": 9951881495,
-    "marketCap": 3275072304,
+    "marketCap": 3279212491,
     "imageName": "dai.png"
   },
   {
@@ -156,7 +188,7 @@
     "name": "Ethena USDe",
     "symbol": "usde",
     "marketCapAth": 6107949485,
-    "marketCap": 5480612153,
+    "marketCap": 5467789888,
     "imageName": "ethena_usde.png"
   },
   {
@@ -164,15 +196,31 @@
     "name": "Ethereum Classic",
     "symbol": "etc",
     "marketCapAth": 17164632587,
-    "marketCap": 2887149417,
+    "marketCap": 2859960454,
     "imageName": "ethereum_classic.png"
+  },
+  {
+    "id": "filecoin",
+    "name": "Filecoin",
+    "symbol": "fil",
+    "marketCapAth": 12306583040,
+    "marketCap": 2022360197,
+    "imageName": "filecoin.png"
+  },
+  {
+    "id": "first-digital-usd",
+    "name": "First Digital USD",
+    "symbol": "fdusd",
+    "marketCapAth": 4418950180,
+    "marketCap": 2040415064,
+    "imageName": "first_digital_usd.png"
   },
   {
     "id": "gatechain-token",
     "name": "Gate",
     "symbol": "gt",
     "marketCapAth": 3195006251,
-    "marketCap": 2600634388,
+    "marketCap": 2560762282,
     "imageName": "gate.png"
   },
   {
@@ -180,7 +228,7 @@
     "name": "Hedera",
     "symbol": "hbar",
     "marketCapAth": 14366468224,
-    "marketCap": 9761763068,
+    "marketCap": 9645426586,
     "imageName": "hedera.png"
   },
   {
@@ -188,7 +236,7 @@
     "name": "Hyperliquid",
     "symbol": "hype",
     "marketCapAth": 10813688145,
-    "marketCap": 6384927886,
+    "marketCap": 6412570031,
     "imageName": "hyperliquid.jpg"
   },
   {
@@ -196,15 +244,31 @@
     "name": "Internet Computer",
     "symbol": "icp",
     "marketCapAth": 18537096879,
-    "marketCap": 3071583448,
+    "marketCap": 3055898130,
     "imageName": "internet_computer.png"
+  },
+  {
+    "id": "jupiter-exchange-solana",
+    "name": "Jupiter",
+    "symbol": "jup",
+    "marketCapAth": 3714079707,
+    "marketCap": 1923552926,
+    "imageName": "jupiter.png"
+  },
+  {
+    "id": "kaspa",
+    "name": "Kaspa",
+    "symbol": "kas",
+    "marketCapAth": 4994803245,
+    "marketCap": 1952869727,
+    "imageName": "kaspa.png"
   },
   {
     "id": "leo-token",
     "name": "LEO Token",
     "symbol": "leo",
     "marketCapAth": 9171589873,
-    "marketCap": 8526293422,
+    "marketCap": 8583293795,
     "imageName": "leo_token.png"
   },
   {
@@ -212,7 +276,7 @@
     "name": "Lido Staked Ether",
     "symbol": "steth",
     "marketCapAth": 40208183429,
-    "marketCap": 20470899366,
+    "marketCap": 20202699750,
     "imageName": "lido_staked_ether.png"
   },
   {
@@ -220,7 +284,7 @@
     "name": "Litecoin",
     "symbol": "ltc",
     "marketCapAth": 25677759330,
-    "marketCap": 9500353409,
+    "marketCap": 9390463624,
     "imageName": "litecoin.png"
   },
   {
@@ -228,7 +292,7 @@
     "name": "Mantle",
     "symbol": "mnt",
     "marketCapAth": 4701496874,
-    "marketCap": 2499993191,
+    "marketCap": 2483735945,
     "imageName": "mantle.png"
   },
   {
@@ -236,7 +300,7 @@
     "name": "MANTRA",
     "symbol": "om",
     "marketCapAth": 8255332630,
-    "marketCap": 7256808214,
+    "marketCap": 7246743019,
     "imageName": "mantra.png"
   },
   {
@@ -244,7 +308,7 @@
     "name": "Monero",
     "symbol": "xmr",
     "marketCapAth": 8612080665,
-    "marketCap": 4066976677,
+    "marketCap": 4024401772,
     "imageName": "monero.png"
   },
   {
@@ -252,7 +316,7 @@
     "name": "NEAR Protocol",
     "symbol": "near",
     "marketCapAth": 12462550402,
-    "marketCap": 3645719461,
+    "marketCap": 3673477612,
     "imageName": "near_protocol.jpg"
   },
   {
@@ -260,7 +324,7 @@
     "name": "Official Trump",
     "symbol": "trump",
     "marketCapAth": 8792418837,
-    "marketCap": 2642902574,
+    "marketCap": 2618689941,
     "imageName": "official_trump.png"
   },
   {
@@ -268,7 +332,7 @@
     "name": "OKB",
     "symbol": "okb",
     "marketCapAth": 14340743027,
-    "marketCap": 2677499224,
+    "marketCap": 2698424545,
     "imageName": "okb.png"
   },
   {
@@ -276,7 +340,7 @@
     "name": "Ondo",
     "symbol": "ondo",
     "marketCapAth": 4941511984,
-    "marketCap": 3163494906,
+    "marketCap": 3126002172,
     "imageName": "ondo.png"
   },
   {
@@ -284,7 +348,7 @@
     "name": "Pepe",
     "symbol": "pepe",
     "marketCapAth": 11100016888,
-    "marketCap": 3156698300,
+    "marketCap": 3127460970,
     "imageName": "pepe.jpeg"
   },
   {
@@ -292,7 +356,7 @@
     "name": "POL (ex-MATIC)",
     "symbol": "pol",
     "marketCapAth": 5986951855,
-    "marketCap": 2308786504,
+    "marketCap": 2300700788,
     "imageName": "pol__ex_matic_.png"
   },
   {
@@ -300,15 +364,23 @@
     "name": "Polkadot",
     "symbol": "dot",
     "marketCapAth": 56578310063,
-    "marketCap": 6969419941,
+    "marketCap": 6944402240,
     "imageName": "polkadot.png"
+  },
+  {
+    "id": "render-token",
+    "name": "Render",
+    "symbol": "render",
+    "marketCapAth": 5426505548,
+    "marketCap": 1908519712,
+    "imageName": "render.png"
   },
   {
     "id": "shiba-inu",
     "name": "Shiba Inu",
     "symbol": "shib",
     "marketCapAth": 41191243533,
-    "marketCap": 8040991741,
+    "marketCap": 7939333016,
     "imageName": "shiba_inu.png"
   },
   {
@@ -316,7 +388,7 @@
     "name": "Sonic (prev. FTM)",
     "symbol": "s",
     "marketCapAth": 3144502271,
-    "marketCap": 2272902246,
+    "marketCap": 2285397975,
     "imageName": "sonic__prev__ftm_.png"
   },
   {
@@ -324,7 +396,7 @@
     "name": "Stellar",
     "symbol": "xlm",
     "marketCapAth": 16798005006,
-    "marketCap": 9220245116,
+    "marketCap": 9239863049,
     "imageName": "stellar.jpg"
   },
   {
@@ -332,7 +404,7 @@
     "name": "Sui",
     "symbol": "sui",
     "marketCapAth": 15926827307,
-    "marketCap": 8937541928,
+    "marketCap": 8871163028,
     "imageName": "sui.png"
   },
   {
@@ -340,7 +412,7 @@
     "name": "sUSDS",
     "symbol": "susds",
     "marketCapAth": 3510802793,
-    "marketCap": 2974322942,
+    "marketCap": 2972192574,
     "imageName": "susds.png"
   },
   {
@@ -348,7 +420,7 @@
     "name": "Tokenize Xchange",
     "symbol": "tkx",
     "marketCapAth": 4013261401,
-    "marketCap": 2134633181,
+    "marketCap": 2082151626,
     "imageName": "tokenize_xchange.png"
   },
   {
@@ -356,7 +428,7 @@
     "name": "Toncoin",
     "symbol": "ton",
     "marketCapAth": 25230760778,
-    "marketCap": 8178002980,
+    "marketCap": 8090045685,
     "imageName": "toncoin.jpeg"
   },
   {
@@ -364,7 +436,7 @@
     "name": "TRON",
     "symbol": "trx",
     "marketCapAth": 35821142503,
-    "marketCap": 20057700090,
+    "marketCap": 19948089403,
     "imageName": "tron.png"
   },
   {
@@ -372,7 +444,7 @@
     "name": "Uniswap",
     "symbol": "uni",
     "marketCapAth": 22531045773,
-    "marketCap": 4393636203,
+    "marketCap": 4357276537,
     "imageName": "uniswap.png"
   },
   {
@@ -380,7 +452,7 @@
     "name": "USDS",
     "symbol": "usds",
     "marketCapAth": 8985281203,
-    "marketCap": 7780695599,
+    "marketCap": 7809101522,
     "imageName": "usds.webp"
   },
   {
@@ -388,7 +460,7 @@
     "name": "VeChain",
     "symbol": "vet",
     "marketCapAth": 16916710835,
-    "marketCap": 2235686627,
+    "marketCap": 2226191597,
     "imageName": "vechain.png"
   },
   {
@@ -396,7 +468,7 @@
     "name": "WETH",
     "symbol": "weth",
     "marketCapAth": 11138579541,
-    "marketCap": 6290648851,
+    "marketCap": 6231882547,
     "imageName": "weth.png"
   },
   {
@@ -404,7 +476,7 @@
     "name": "WhiteBIT Coin",
     "symbol": "wbt",
     "marketCapAth": 4114744510,
-    "marketCap": 3809975822,
+    "marketCap": 3811769253,
     "imageName": "whitebit_coin.png"
   },
   {
@@ -412,7 +484,7 @@
     "name": "Wrapped Bitcoin",
     "symbol": "wbtc",
     "marketCapAth": 15882338484,
-    "marketCap": 10910452725,
+    "marketCap": 10895623882,
     "imageName": "wrapped_bitcoin.png"
   },
   {
@@ -420,7 +492,7 @@
     "name": "Wrapped eETH",
     "symbol": "weeth",
     "marketCapAth": 7672466325,
-    "marketCap": 4473715028,
+    "marketCap": 4398634661,
     "imageName": "wrapped_eeth.png"
   },
   {
@@ -428,7 +500,7 @@
     "name": "Wrapped stETH",
     "symbol": "wsteth",
     "marketCapAth": 17026668462,
-    "marketCap": 9285477820,
+    "marketCap": 9074925209,
     "imageName": "wrapped_steth.png"
   }
 ]
