@@ -4,7 +4,7 @@
     "name": "Bitcoin",
     "symbol": "btc",
     "marketCapAth": 2458895200753,
-    "marketCap": 2257128333785,
+    "marketCap": 2218773610464,
     "imageName": "bitcoin.png",
     "startDate": "2013-04-28"
   },
@@ -13,7 +13,7 @@
     "name": "Ethereum",
     "symbol": "eth",
     "marketCapAth": 582817007170,
-    "marketCap": 499839684359,
+    "marketCap": 483453469077,
     "imageName": "ethereum.png",
     "startDate": "2015-08-08"
   },
@@ -22,7 +22,7 @@
     "name": "XRP",
     "symbol": "xrp",
     "marketCapAth": 210472490159,
-    "marketCap": 175225243528,
+    "marketCap": 168265948584,
     "imageName": "xrp.png",
     "startDate": "2013-08-04"
   },
@@ -31,7 +31,7 @@
     "name": "Tether",
     "symbol": "usdt",
     "marketCapAth": 173101417754,
-    "marketCap": 173093060222,
+    "marketCap": 173089983178,
     "imageName": "tether.png",
     "startDate": "2015-02-25"
   },
@@ -40,7 +40,7 @@
     "name": "BNB",
     "symbol": "bnb",
     "marketCapAth": 145982985277,
-    "marketCap": 141465235633,
+    "marketCap": 137251495948,
     "imageName": "bnb.png",
     "startDate": "2017-09-16"
   },
@@ -49,7 +49,7 @@
     "name": "Solana",
     "symbol": "sol",
     "marketCapAth": 134328267645,
-    "marketCap": 114581072545,
+    "marketCap": 109396846568,
     "imageName": "solana.png",
     "startDate": "2020-04-11"
   },
@@ -58,7 +58,7 @@
     "name": "Cardano",
     "symbol": "ada",
     "marketCapAth": 95003730488,
-    "marketCap": 29638352742,
+    "marketCap": 28553471734,
     "imageName": "cardano.png",
     "startDate": "2017-10-18"
   },
@@ -67,7 +67,7 @@
     "name": "Dogecoin",
     "symbol": "doge",
     "marketCapAth": 88794768977,
-    "marketCap": 36374573534,
+    "marketCap": 34934775352,
     "imageName": "dogecoin.png",
     "startDate": "2013-12-15"
   },
@@ -76,7 +76,7 @@
     "name": "USDC",
     "symbol": "usdc",
     "marketCapAth": 74338680585,
-    "marketCap": 74153823774,
+    "marketCap": 74041652652,
     "imageName": "usdc.png",
     "startDate": "2018-10-18"
   },
@@ -85,7 +85,7 @@
     "name": "Bitcoin Cash",
     "symbol": "bch",
     "marketCapAth": 63855944427,
-    "marketCap": 11096827180,
+    "marketCap": 10866355428,
     "imageName": "bitcoin_cash.png",
     "startDate": "2017-08-02"
   },
@@ -94,7 +94,7 @@
     "name": "Polkadot",
     "symbol": "dot",
     "marketCapAth": 56578310063,
-    "marketCap": 6056314280,
+    "marketCap": 5940926458,
     "imageName": "polkadot.png",
     "startDate": "2020-08-23"
   },
@@ -103,7 +103,7 @@
     "name": "Lido Staked Ether",
     "symbol": "steth",
     "marketCapAth": 42274339219,
-    "marketCap": 35311090779,
+    "marketCap": 34137673039,
     "imageName": "lido_staked_ether.png",
     "startDate": "2020-12-24"
   },
@@ -112,7 +112,7 @@
     "name": "Shiba Inu",
     "symbol": "shib",
     "marketCapAth": 41191243533,
-    "marketCap": 7131502545,
+    "marketCap": 6970148887,
     "imageName": "shiba_inu.png",
     "startDate": "2021-05-16"
   },
@@ -121,7 +121,7 @@
     "name": "TRON",
     "symbol": "trx",
     "marketCapAth": 35821142503,
-    "marketCap": 32012573131,
+    "marketCap": 31386095808,
     "imageName": "tron.png",
     "startDate": "2017-11-09"
   },
@@ -130,7 +130,7 @@
     "name": "Avalanche",
     "symbol": "avax",
     "marketCapAth": 30066351594,
-    "marketCap": 13589303472,
+    "marketCap": 12907278301,
     "imageName": "avalanche.png",
     "startDate": "2020-09-22"
   },
@@ -139,7 +139,7 @@
     "name": "Litecoin",
     "symbol": "ltc",
     "marketCapAth": 25677759330,
-    "marketCap": 8054434559,
+    "marketCap": 7899853748,
     "imageName": "litecoin.png",
     "startDate": "2013-04-28"
   },
@@ -148,7 +148,7 @@
     "name": "Toncoin",
     "symbol": "ton",
     "marketCapAth": 25230760778,
-    "marketCap": 7152268415,
+    "marketCap": 7023414598,
     "imageName": "toncoin.jpeg",
     "startDate": "2022-11-03"
   },
@@ -157,7 +157,7 @@
     "name": "Cronos",
     "symbol": "cro",
     "marketCapAth": 22766071274,
-    "marketCap": 6965141128,
+    "marketCap": 6493633823,
     "imageName": "cronos.png",
     "startDate": "2019-03-17"
   },
@@ -166,7 +166,7 @@
     "name": "Uniswap",
     "symbol": "uni",
     "marketCapAth": 22531045773,
-    "marketCap": 4730250252,
+    "marketCap": 4618189414,
     "imageName": "uniswap.png",
     "startDate": "2020-09-17"
   },
@@ -175,7 +175,7 @@
     "name": "Chainlink",
     "symbol": "link",
     "marketCapAth": 22037403035,
-    "marketCap": 14597772360,
+    "marketCap": 14072628314,
     "imageName": "chainlink.png",
     "startDate": "2017-11-09"
   },
@@ -184,7 +184,7 @@
     "name": "Wrapped stETH",
     "symbol": "wsteth",
     "marketCapAth": 18587664910,
-    "marketCap": 15726062806,
+    "marketCap": 15199255884,
     "imageName": "wrapped_steth.png",
     "startDate": "2024-08-15"
   },
@@ -193,7 +193,7 @@
     "name": "Internet Computer",
     "symbol": "icp",
     "marketCapAth": 18537096879,
-    "marketCap": 2308976040,
+    "marketCap": 2238160522,
     "imageName": "internet_computer.png",
     "startDate": "2021-05-22"
   },
@@ -202,7 +202,7 @@
     "name": "EOS",
     "symbol": "eos",
     "marketCapAth": 17545853249,
-    "marketCap": 273921608,
+    "marketCap": 266794210,
     "imageName": "eos.png",
     "startDate": "2017-07-09"
   },
@@ -211,7 +211,7 @@
     "name": "Ethereum Classic",
     "symbol": "etc",
     "marketCapAth": 17164632587,
-    "marketCap": 2858060810,
+    "marketCap": 2796756118,
     "imageName": "ethereum_classic.png",
     "startDate": "2016-07-25"
   },
@@ -220,7 +220,7 @@
     "name": "VeChain",
     "symbol": "vet",
     "marketCapAth": 16916710835,
-    "marketCap": 1942864466,
+    "marketCap": 1889818672,
     "imageName": "vechain.png",
     "startDate": "2018-07-27"
   },
@@ -229,7 +229,7 @@
     "name": "Stellar",
     "symbol": "xlm",
     "marketCapAth": 16798005006,
-    "marketCap": 11936671895,
+    "marketCap": 11405486476,
     "imageName": "stellar.jpg",
     "startDate": "2014-08-06"
   },
@@ -238,7 +238,7 @@
     "name": "Hyperliquid",
     "symbol": "hype",
     "marketCapAth": 16234199550,
-    "marketCap": 12358864709,
+    "marketCap": 11298312859,
     "imageName": "hyperliquid.jpg",
     "startDate": "2024-11-29"
   },
@@ -247,7 +247,7 @@
     "name": "Wrapped Beacon ETH",
     "symbol": "wbeth",
     "marketCapAth": 16078176200,
-    "marketCap": 14575771298,
+    "marketCap": 14098361170,
     "imageName": "wrapped_beacon_eth.png",
     "startDate": "2023-05-19"
   },
@@ -256,7 +256,7 @@
     "name": "Sui",
     "symbol": "sui",
     "marketCapAth": 15926827307,
-    "marketCap": 11971717348,
+    "marketCap": 11309300580,
     "imageName": "sui.png",
     "startDate": "2023-05-03"
   },
@@ -265,7 +265,7 @@
     "name": "Wrapped Bitcoin",
     "symbol": "wbtc",
     "marketCapAth": 15882338484,
-    "marketCap": 14382729443,
+    "marketCap": 14166252533,
     "imageName": "wrapped_bitcoin.png",
     "startDate": "2020-09-03"
   },
@@ -274,7 +274,7 @@
     "name": "IOTA",
     "symbol": "iota",
     "marketCapAth": 14589140073,
-    "marketCap": 688375278,
+    "marketCap": 665060724,
     "imageName": "iota.png",
     "startDate": "2017-06-14"
   },
@@ -283,7 +283,7 @@
     "name": "Ethena USDe",
     "symbol": "usde",
     "marketCapAth": 14426654681,
-    "marketCap": 14396616315,
+    "marketCap": 14354198571,
     "imageName": "ethena_usde.png",
     "startDate": "2024-01-05"
   },
@@ -292,7 +292,7 @@
     "name": "Hedera",
     "symbol": "hbar",
     "marketCapAth": 14366468224,
-    "marketCap": 9358556463,
+    "marketCap": 8985182732,
     "imageName": "hedera.png",
     "startDate": "2019-09-18"
   },
@@ -301,7 +301,7 @@
     "name": "OKB",
     "symbol": "okb",
     "marketCapAth": 14340743027,
-    "marketCap": 3820147398,
+    "marketCap": 3882433783,
     "imageName": "okb.png",
     "startDate": "2018-06-21"
   },
@@ -310,7 +310,7 @@
     "name": "Theta Network",
     "symbol": "theta",
     "marketCapAth": 14012980205,
-    "marketCap": 737518710,
+    "marketCap": 712357559,
     "imageName": "theta_network.png",
     "startDate": "2018-01-24"
   },
@@ -319,7 +319,7 @@
     "name": "Pi Network",
     "symbol": "pi",
     "marketCapAth": 13552545379,
-    "marketCap": 2299012000,
+    "marketCap": 2217866415,
     "imageName": "pi_network.jpg",
     "startDate": "2025-03-05"
   },
@@ -328,7 +328,7 @@
     "name": "Algorand",
     "symbol": "algo",
     "marketCapAth": 13397094706,
-    "marketCap": 1867281500,
+    "marketCap": 1806364037,
     "imageName": "algorand.png",
     "startDate": "2019-06-22"
   },
@@ -337,7 +337,7 @@
     "name": "Wrapped eETH",
     "symbol": "weeth",
     "marketCapAth": 13286420900,
-    "marketCap": 10997572468,
+    "marketCap": 10630518890,
     "imageName": "wrapped_eeth.png",
     "startDate": "2024-03-15"
   },
@@ -346,7 +346,7 @@
     "name": "Figure Heloc",
     "symbol": "figr_heloc",
     "marketCapAth": 12953118529,
-    "marketCap": 12628967367,
+    "marketCap": 12628969893,
     "imageName": "figure_heloc.png",
     "startDate": "2025-09-02"
   },
@@ -355,7 +355,7 @@
     "name": "NEAR Protocol",
     "symbol": "near",
     "marketCapAth": 12462550402,
-    "marketCap": 3770945173,
+    "marketCap": 3546654767,
     "imageName": "near_protocol.jpg",
     "startDate": "2020-11-23"
   },
@@ -364,7 +364,7 @@
     "name": "Cosmos Hub",
     "symbol": "atom",
     "marketCapAth": 12451582328,
-    "marketCap": 1949819808,
+    "marketCap": 1904606661,
     "imageName": "cosmos_hub.png",
     "startDate": "2019-03-16"
   },
@@ -373,7 +373,7 @@
     "name": "Filecoin",
     "symbol": "fil",
     "marketCapAth": 12306583040,
-    "marketCap": 1532687911,
+    "marketCap": 1516103510,
     "imageName": "filecoin.png",
     "startDate": "2020-10-15"
   },
@@ -382,7 +382,7 @@
     "name": "WETH",
     "symbol": "weth",
     "marketCapAth": 11451725336,
-    "marketCap": 10104630844,
+    "marketCap": 9728609087,
     "imageName": "weth.png",
     "startDate": "2024-08-15"
   },
@@ -391,7 +391,7 @@
     "name": "Bitget Token",
     "symbol": "bgb",
     "marketCapAth": 11421751390,
-    "marketCap": 3707995023,
+    "marketCap": 3660812678,
     "imageName": "bitget_token.png",
     "startDate": "2022-11-12"
   },
@@ -400,7 +400,7 @@
     "name": "Pepe",
     "symbol": "pepe",
     "marketCapAth": 11100016888,
-    "marketCap": 4038139541,
+    "marketCap": 3943655865,
     "imageName": "pepe.jpeg",
     "startDate": "2023-04-20"
   },
@@ -418,7 +418,7 @@
     "name": "Dai",
     "symbol": "dai",
     "marketCapAth": 9951881495,
-    "marketCap": 4674157149,
+    "marketCap": 4650935481,
     "imageName": "dai.png",
     "startDate": "2019-11-19"
   },
@@ -427,7 +427,7 @@
     "name": "LEO Token",
     "symbol": "leo",
     "marketCapAth": 9183109822,
-    "marketCap": 8716485596,
+    "marketCap": 8744526415,
     "imageName": "leo_token.png",
     "startDate": "2019-05-23"
   },
@@ -436,7 +436,7 @@
     "name": "USDS",
     "symbol": "usds",
     "marketCapAth": 8985281203,
-    "marketCap": 8207757118,
+    "marketCap": 8148580784,
     "imageName": "usds.webp",
     "startDate": "2024-10-27"
   },
@@ -445,7 +445,7 @@
     "name": "Official Trump",
     "symbol": "trump",
     "marketCapAth": 8792418837,
-    "marketCap": 1536670048,
+    "marketCap": 1507729200,
     "imageName": "official_trump.png",
     "startDate": "2025-01-18"
   },
@@ -454,7 +454,7 @@
     "name": "Monero",
     "symbol": "xmr",
     "marketCapAth": 8612080665,
-    "marketCap": 5435845753,
+    "marketCap": 5477003524,
     "imageName": "monero.png",
     "startDate": "2014-05-21"
   },
@@ -463,7 +463,7 @@
     "name": "MANTRA",
     "symbol": "om",
     "marketCapAth": 8255332630,
-    "marketCap": 182369602,
+    "marketCap": 174421762,
     "imageName": "mantra.png",
     "startDate": "2020-08-18"
   },
@@ -472,7 +472,7 @@
     "name": "Bitcoin SV",
     "symbol": "bsv",
     "marketCapAth": 8150425986,
-    "marketCap": 483994265,
+    "marketCap": 472891031,
     "imageName": "bitcoin_sv.png",
     "startDate": "2018-11-27"
   },
@@ -481,7 +481,7 @@
     "name": "Aave",
     "symbol": "aave",
     "marketCapAth": 7953335447,
-    "marketCap": 4230308401,
+    "marketCap": 4047283659,
     "imageName": "aave.png",
     "startDate": "2020-10-03"
   },
@@ -490,7 +490,7 @@
     "name": "Aptos",
     "symbol": "apt",
     "marketCapAth": 7890290618,
-    "marketCap": 2968265646,
+    "marketCap": 2886664088,
     "imageName": "aptos.png",
     "startDate": "2022-10-20"
   },
@@ -499,7 +499,7 @@
     "name": "Binance Bridged USDT (BNB Smart Chain)",
     "symbol": "bsc-usd",
     "marketCapAth": 7488085529,
-    "marketCap": 7485858349,
+    "marketCap": 7486428974,
     "imageName": "binance_bridged_usdt__bnb_smart_chain_.png",
     "startDate": "2025-03-11"
   },
@@ -508,7 +508,7 @@
     "name": "WhiteBIT Coin",
     "symbol": "wbt",
     "marketCapAth": 7452482768,
-    "marketCap": 6077407689,
+    "marketCap": 5957998654,
     "imageName": "whitebit_coin.png",
     "startDate": "2022-10-21"
   },
@@ -517,7 +517,7 @@
     "name": "Coinbase Wrapped BTC",
     "symbol": "cbbtc",
     "marketCapAth": 6918135315,
-    "marketCap": 6850661156,
+    "marketCap": 6750364955,
     "imageName": "coinbase_wrapped_btc.webp",
     "startDate": "2024-09-14"
   },
@@ -526,7 +526,7 @@
     "name": "World Liberty Financial",
     "symbol": "wlfi",
     "marketCapAth": 6656403821,
-    "marketCap": 5379616876,
+    "marketCap": 5459581461,
     "imageName": "world_liberty_financial.png",
     "startDate": "2025-09-01"
   },
@@ -535,7 +535,7 @@
     "name": "Artificial Superintelligence Alliance",
     "symbol": "fet",
     "marketCapAth": 6386270116,
-    "marketCap": 1538024144,
+    "marketCap": 1499816613,
     "imageName": "artificial_superintelligence_alliance.png",
     "startDate": "2019-06-26"
   },
@@ -544,7 +544,7 @@
     "name": "Ethena Staked USDe",
     "symbol": "susde",
     "marketCapAth": 6140058492,
-    "marketCap": 6055524378,
+    "marketCap": 6028640725,
     "imageName": "ethena_staked_usde.png",
     "startDate": "2025-03-21"
   },
@@ -553,7 +553,7 @@
     "name": "The Graph",
     "symbol": "grt",
     "marketCapAth": 6046696212,
-    "marketCap": 877761390,
+    "marketCap": 854818566,
     "imageName": "the_graph.png",
     "startDate": "2020-12-17"
   },
@@ -562,7 +562,7 @@
     "name": "POL (ex-MATIC)",
     "symbol": "pol",
     "marketCapAth": 5986951855,
-    "marketCap": 2357463557,
+    "marketCap": 2308398797,
     "imageName": "pol__ex_matic_.png",
     "startDate": "2023-10-27"
   },
@@ -571,7 +571,7 @@
     "name": "Mantle",
     "symbol": "mnt",
     "marketCapAth": 5783020150,
-    "marketCap": 5567259908,
+    "marketCap": 5394987834,
     "imageName": "mantle.png",
     "startDate": "2023-07-25"
   },
@@ -580,7 +580,7 @@
     "name": "Ethena",
     "symbol": "ena",
     "marketCapAth": 5589843038,
-    "marketCap": 4087034966,
+    "marketCap": 3946203837,
     "imageName": "ethena.png",
     "startDate": "2024-04-02"
   },
@@ -589,7 +589,7 @@
     "name": "Render",
     "symbol": "render",
     "marketCapAth": 5426505548,
-    "marketCap": 1874459918,
+    "marketCap": 1790339485,
     "imageName": "render.png",
     "startDate": "2020-11-12"
   },
@@ -598,7 +598,7 @@
     "name": "Stacks",
     "symbol": "stx",
     "marketCapAth": 5304780103,
-    "marketCap": 1070827681,
+    "marketCap": 1037034685,
     "imageName": "stacks.png",
     "startDate": "2019-11-07"
   },
@@ -607,7 +607,7 @@
     "name": "Quant",
     "symbol": "qnt",
     "marketCapAth": 5286768720,
-    "marketCap": 1407373196,
+    "marketCap": 1313928389,
     "imageName": "quant.jpg",
     "startDate": "2018-09-18"
   },
@@ -616,7 +616,7 @@
     "name": "Bittensor",
     "symbol": "tao",
     "marketCapAth": 5251065561,
-    "marketCap": 2976439106,
+    "marketCap": 2860122186,
     "imageName": "bittensor.jpeg",
     "startDate": "2023-11-17"
   },
@@ -625,7 +625,7 @@
     "name": "Immutable",
     "symbol": "imx",
     "marketCapAth": 5045217952,
-    "marketCap": 1402395847,
+    "marketCap": 1396908579,
     "imageName": "immutable.png",
     "startDate": "2021-11-11"
   },
@@ -634,7 +634,7 @@
     "name": "Kaspa",
     "symbol": "kas",
     "marketCapAth": 4994803245,
-    "marketCap": 2071468331,
+    "marketCap": 2006320925,
     "imageName": "kaspa.png",
     "startDate": "2022-08-09"
   },
@@ -643,7 +643,7 @@
     "name": "USDT0",
     "symbol": "usdt0",
     "marketCapAth": 4972137757,
-    "marketCap": 4970102241,
+    "marketCap": 5009364246,
     "imageName": "usdt0.jpg",
     "startDate": "2025-02-06"
   },
@@ -652,7 +652,7 @@
     "name": "Ondo",
     "symbol": "ondo",
     "marketCapAth": 4941511984,
-    "marketCap": 2915033411,
+    "marketCap": 2818679773,
     "imageName": "ondo.png",
     "startDate": "2024-01-20"
   },
@@ -661,7 +661,7 @@
     "name": "Arbitrum",
     "symbol": "arb",
     "marketCapAth": 4820530717,
-    "marketCap": 2310476921,
+    "marketCap": 2246712202,
     "imageName": "arbitrum.jpg",
     "startDate": "2023-03-23"
   },
@@ -670,7 +670,7 @@
     "name": "MemeCore",
     "symbol": "m",
     "marketCapAth": 4746952624,
-    "marketCap": 4030861359,
+    "marketCap": 3742278422,
     "imageName": "memecore.png",
     "startDate": "2025-07-08"
   },
@@ -679,7 +679,7 @@
     "name": "Optimism",
     "symbol": "op",
     "marketCapAth": 4718775970,
-    "marketCap": 1209614155,
+    "marketCap": 1188812121,
     "imageName": "optimism.png",
     "startDate": "2022-06-02"
   },
@@ -688,7 +688,7 @@
     "name": "Virtuals Protocol",
     "symbol": "virtual",
     "marketCapAth": 4612756012,
-    "marketCap": 709210137,
+    "marketCap": 683076991,
     "imageName": "virtuals_protocol.png",
     "startDate": "2024-03-23"
   },
@@ -697,7 +697,7 @@
     "name": "dogwifhat",
     "symbol": "wif",
     "marketCapAth": 4579796517,
-    "marketCap": 783548559,
+    "marketCap": 755460988,
     "imageName": "dogwifhat.jpg",
     "startDate": "2023-12-21"
   },
@@ -706,7 +706,7 @@
     "name": "Injective",
     "symbol": "inj",
     "marketCapAth": 4538593321,
-    "marketCap": 1204416248,
+    "marketCap": 1151932192,
     "imageName": "injective.png",
     "startDate": "2020-10-21"
   },
@@ -715,7 +715,7 @@
     "name": "First Digital USD",
     "symbol": "fdusd",
     "marketCapAth": 4418950180,
-    "marketCap": 1122719702,
+    "marketCap": 1115558203,
     "imageName": "first_digital_usd.png",
     "startDate": "2023-08-05"
   },
@@ -724,7 +724,7 @@
     "name": "Bonk",
     "symbol": "bonk",
     "marketCapAth": 4030727165,
-    "marketCap": 1562698766,
+    "marketCap": 1506394333,
     "imageName": "bonk.jpg",
     "startDate": "2023-01-04"
   },
@@ -733,7 +733,7 @@
     "name": "Tokenize Xchange",
     "symbol": "tkx",
     "marketCapAth": 4013261401,
-    "marketCap": 393344186,
+    "marketCap": 387131593,
     "imageName": "tokenize_xchange.png",
     "startDate": "2019-04-16"
   },
@@ -742,7 +742,7 @@
     "name": "Celestia",
     "symbol": "tia",
     "marketCapAth": 3920897920,
-    "marketCap": 1144422748,
+    "marketCap": 1114716318,
     "imageName": "celestia.jpg",
     "startDate": "2023-10-31"
   },
@@ -751,7 +751,7 @@
     "name": "Worldcoin",
     "symbol": "wld",
     "marketCapAth": 3920440373,
-    "marketCap": 2824814124,
+    "marketCap": 2666132017,
     "imageName": "worldcoin.jpeg",
     "startDate": "2023-07-24"
   },
@@ -760,7 +760,7 @@
     "name": "Renzo Restaked ETH",
     "symbol": "ezeth",
     "marketCapAth": 3839002301,
-    "marketCap": 1336110146,
+    "marketCap": 1291663724,
     "imageName": "renzo_restaked_eth.png",
     "startDate": "2024-04-20"
   },
@@ -769,7 +769,7 @@
     "name": "Aster",
     "symbol": "aster",
     "marketCapAth": 3823240046,
-    "marketCap": 3827094451,
+    "marketCap": 3247361677,
     "imageName": "aster.png",
     "startDate": "2025-09-19"
   },
@@ -778,7 +778,7 @@
     "name": "Jito Staked SOL",
     "symbol": "jitosol",
     "marketCapAth": 3727198295,
-    "marketCap": 3073491626,
+    "marketCap": 2937373477,
     "imageName": "jito_staked_sol.png",
     "startDate": "2025-05-15"
   },
@@ -787,7 +787,7 @@
     "name": "Jupiter",
     "symbol": "jup",
     "marketCapAth": 3714079707,
-    "marketCap": 1459118774,
+    "marketCap": 1394782461,
     "imageName": "jupiter.png",
     "startDate": "2024-01-31"
   },
@@ -796,7 +796,7 @@
     "name": "sUSDS",
     "symbol": "susds",
     "marketCapAth": 3579774718,
-    "marketCap": 2319667949,
+    "marketCap": 2309515291,
     "imageName": "susds.png",
     "startDate": "2024-12-18"
   },
@@ -805,7 +805,7 @@
     "name": "Lido DAO",
     "symbol": "ldo",
     "marketCapAth": 3366915398,
-    "marketCap": 989509814,
+    "marketCap": 966332083,
     "imageName": "lido_dao.png",
     "startDate": "2021-01-05"
   },
@@ -814,7 +814,7 @@
     "name": "MYX Finance",
     "symbol": "myx",
     "marketCapAth": 3327069691,
-    "marketCap": 1711368067,
+    "marketCap": 1698062661,
     "imageName": "myx_finance.jpg",
     "startDate": "2025-05-06"
   },
@@ -823,7 +823,7 @@
     "name": "Gate",
     "symbol": "gt",
     "marketCapAth": 3195006251,
-    "marketCap": 1959289897,
+    "marketCap": 1936058264,
     "imageName": "gate.png",
     "startDate": "2019-12-12"
   },
@@ -832,7 +832,7 @@
     "name": "Sonic",
     "symbol": "s",
     "marketCapAth": 3144502271,
-    "marketCap": 943747339,
+    "marketCap": 877916877,
     "imageName": "sonic.png",
     "startDate": "2025-01-04"
   },
@@ -841,7 +841,7 @@
     "name": "FLOKI",
     "symbol": "floki",
     "marketCapAth": 3121649595,
-    "marketCap": 821029482,
+    "marketCap": 791899574,
     "imageName": "floki.png",
     "startDate": "2022-03-09"
   },
@@ -850,7 +850,7 @@
     "name": "Binance Staked SOL",
     "symbol": "bnsol",
     "marketCapAth": 3093126359,
-    "marketCap": 2716884280,
+    "marketCap": 2602622865,
     "imageName": "binance_staked_sol.png",
     "startDate": "2024-09-12"
   },
@@ -859,7 +859,7 @@
     "name": "Pump.fun",
     "symbol": "pump",
     "marketCapAth": 3037273237,
-    "marketCap": 1981700150,
+    "marketCap": 1827186034,
     "imageName": "pump_fun.jpg",
     "startDate": "2025-07-14"
   },
@@ -868,7 +868,7 @@
     "name": "Binance-Peg WETH",
     "symbol": "weth",
     "marketCapAth": 2928492793,
-    "marketCap": 2504098931,
+    "marketCap": 2421380901,
     "imageName": "binance_peg_weth.png",
     "startDate": "2024-08-23"
   },
@@ -886,7 +886,7 @@
     "name": "Sei",
     "symbol": "sei",
     "marketCapAth": 2923166832,
-    "marketCap": 1779999596,
+    "marketCap": 1708289113,
     "imageName": "sei.png",
     "startDate": "2023-08-15"
   },
@@ -895,7 +895,7 @@
     "name": "JasmyCoin",
     "symbol": "jasmy",
     "marketCapAth": 2800009575,
-    "marketCap": 612245498,
+    "marketCap": 589943794,
     "imageName": "jasmycoin.jpg",
     "startDate": "2021-10-30"
   },
@@ -904,7 +904,7 @@
     "name": "Pudgy Penguins",
     "symbol": "pengu",
     "marketCapAth": 2708368145,
-    "marketCap": 1876588401,
+    "marketCap": 1770028065,
     "imageName": "pudgy_penguins.png",
     "startDate": "2024-12-17"
   },
@@ -913,7 +913,7 @@
     "name": "USD1",
     "symbol": "usd1",
     "marketCapAth": 2703695469,
-    "marketCap": 2701766426,
+    "marketCap": 2699273638,
     "imageName": "usd1.png",
     "startDate": "2025-04-23"
   },
@@ -922,7 +922,7 @@
     "name": "Curve DAO",
     "symbol": "crv",
     "marketCapAth": 2565964210,
-    "marketCap": 970841240,
+    "marketCap": 935366164,
     "imageName": "curve_dao.png",
     "startDate": "2020-08-15"
   },
@@ -931,7 +931,7 @@
     "name": "Movement",
     "symbol": "move",
     "marketCapAth": 2533280362,
-    "marketCap": 318854480,
+    "marketCap": 306427962,
     "imageName": "movement.png",
     "startDate": "2024-12-09"
   },
@@ -940,7 +940,7 @@
     "name": "Rocket Pool ETH",
     "symbol": "reth",
     "marketCapAth": 2462528387,
-    "marketCap": 1856226795,
+    "marketCap": 1794724264,
     "imageName": "rocket_pool_eth.png",
     "startDate": "2022-09-21"
   },
@@ -949,7 +949,7 @@
     "name": "Raydium",
     "symbol": "ray",
     "marketCapAth": 2379235096,
-    "marketCap": 740444787,
+    "marketCap": 703287431,
     "imageName": "raydium.jpg",
     "startDate": "2021-02-23"
   },
@@ -958,7 +958,7 @@
     "name": "Provenance Blockchain",
     "symbol": "hash",
     "marketCapAth": 2357113532,
-    "marketCap": 1874106829,
+    "marketCap": 1754411482,
     "imageName": "provenance_blockchain.png",
     "startDate": "2025-08-02"
   },
@@ -967,7 +967,7 @@
     "name": "Kinetiq Staked HYPE",
     "symbol": "khype",
     "marketCapAth": 2334579604,
-    "marketCap": 1812317390,
+    "marketCap": 1654008534,
     "imageName": "kinetiq_staked_hype.png",
     "startDate": "2025-07-16"
   },
@@ -976,7 +976,7 @@
     "name": "Kaia",
     "symbol": "kaia",
     "marketCapAth": 2321648113,
-    "marketCap": 879034068,
+    "marketCap": 896129161,
     "imageName": "kaia.png",
     "startDate": "2024-10-31"
   },
@@ -985,7 +985,7 @@
     "name": "Jupiter Perpetuals Liquidity Provider Token",
     "symbol": "jlp",
     "marketCapAth": 2284990450,
-    "marketCap": 2191965372,
+    "marketCap": 2151620795,
     "imageName": "jupiter_perpetuals_liquidity_provider_token.png",
     "startDate": "2025-04-09"
   },
@@ -994,7 +994,7 @@
     "name": "XDC Network",
     "symbol": "xdc",
     "marketCapAth": 2228726814,
-    "marketCap": 1364804866,
+    "marketCap": 1339325519,
     "imageName": "xdc_network.png",
     "startDate": "2021-01-17"
   },
@@ -1003,7 +1003,7 @@
     "name": "Mantle Staked Ether",
     "symbol": "meth",
     "marketCapAth": 2202463494,
-    "marketCap": 1068507041,
+    "marketCap": 1032417887,
     "imageName": "mantle_staked_ether.png",
     "startDate": "2024-02-02"
   },
@@ -1012,7 +1012,7 @@
     "name": "NEXO",
     "symbol": "nexo",
     "marketCapAth": 2193597889,
-    "marketCap": 1253735905,
+    "marketCap": 1234239612,
     "imageName": "nexo.png",
     "startDate": "2018-05-05"
   },
@@ -1021,7 +1021,7 @@
     "name": "Fartcoin",
     "symbol": "fartcoin",
     "marketCapAth": 2152803818,
-    "marketCap": 612399152,
+    "marketCap": 592061492,
     "imageName": "fartcoin.jpg",
     "startDate": "2024-10-21"
   },
@@ -1030,7 +1030,7 @@
     "name": "KuCoin",
     "symbol": "kcs",
     "marketCapAth": 2114725853,
-    "marketCap": 1955575194,
+    "marketCap": 1937268359,
     "imageName": "kucoin.png",
     "startDate": "2017-11-08"
   },
@@ -1039,7 +1039,7 @@
     "name": "Kelp DAO Restaked ETH",
     "symbol": "rseth",
     "marketCapAth": 2088581628,
-    "marketCap": 1866565346,
+    "marketCap": 1814510399,
     "imageName": "kelp_dao_restaked_eth.png",
     "startDate": "2024-03-15"
   },
@@ -1048,7 +1048,7 @@
     "name": "Sky",
     "symbol": "sky",
     "marketCapAth": 2053499153,
-    "marketCap": 1555821900,
+    "marketCap": 1522978664,
     "imageName": "sky.jpg",
     "startDate": "2025-06-06"
   },
@@ -1057,7 +1057,7 @@
     "name": "Flare",
     "symbol": "flr",
     "marketCapAth": 2018781522,
-    "marketCap": 2010067473,
+    "marketCap": 1844528167,
     "imageName": "flare.png",
     "startDate": "2023-01-10"
   },
@@ -1066,7 +1066,7 @@
     "name": "SPX6900",
     "symbol": "spx",
     "marketCapAth": 2005778272,
-    "marketCap": 983450355,
+    "marketCap": 927759560,
     "imageName": "spx6900.png",
     "startDate": "2024-03-07"
   },
@@ -1075,7 +1075,7 @@
     "name": "Falcon USD",
     "symbol": "usdf",
     "marketCapAth": 2003458271,
-    "marketCap": 1999939087,
+    "marketCap": 1999371949,
     "imageName": "falcon_usd.png",
     "startDate": "2025-02-25"
   },
@@ -1084,7 +1084,7 @@
     "name": "Conflux",
     "symbol": "cfx",
     "marketCapAth": 1998438466,
-    "marketCap": 746009868,
+    "marketCap": 724286207,
     "imageName": "conflux.png",
     "startDate": "2021-04-28"
   },
@@ -1093,7 +1093,7 @@
     "name": "Fasttoken",
     "symbol": "ftn",
     "marketCapAth": 1984207873,
-    "marketCap": 1934960436,
+    "marketCap": 1936410788,
     "imageName": "fasttoken.png",
     "startDate": "2023-10-07"
   },
@@ -1102,7 +1102,7 @@
     "name": "Pyth Network",
     "symbol": "pyth",
     "marketCapAth": 1913445996,
-    "marketCap": 869387960,
+    "marketCap": 833132022,
     "imageName": "pyth_network.png",
     "startDate": "2023-11-22"
   },
@@ -1111,7 +1111,7 @@
     "name": "Usual USD",
     "symbol": "usd0",
     "marketCapAth": 1864330187,
-    "marketCap": 563956418,
+    "marketCap": 563077302,
     "imageName": "usual_usd.png",
     "startDate": "2024-08-28"
   },
@@ -1120,7 +1120,7 @@
     "name": "USDtb",
     "symbol": "usdtb",
     "marketCapAth": 1828418416,
-    "marketCap": 1826152210,
+    "marketCap": 1823452315,
     "imageName": "usdtb.jpeg",
     "startDate": "2025-06-06"
   },
@@ -1129,7 +1129,7 @@
     "name": "StakeWise Staked ETH",
     "symbol": "oseth",
     "marketCapAth": 1821440340,
-    "marketCap": 1566362067,
+    "marketCap": 1512278976,
     "imageName": "stakewise_staked_eth.png",
     "startDate": "2023-12-16"
   },
@@ -1138,7 +1138,7 @@
     "name": "PayPal USD",
     "symbol": "pyusd",
     "marketCapAth": 1807064247,
-    "marketCap": 1806648688,
+    "marketCap": 1834874694,
     "imageName": "paypal_usd.png",
     "startDate": "2023-09-09"
   },
@@ -1147,7 +1147,7 @@
     "name": "Liquid Staked ETH",
     "symbol": "lseth",
     "marketCapAth": 1750222174,
-    "marketCap": 1492811943,
+    "marketCap": 1443117434,
     "imageName": "liquid_staked_eth.png",
     "startDate": "2024-04-27"
   },
@@ -1156,7 +1156,7 @@
     "name": "BFUSD",
     "symbol": "bfusd",
     "marketCapAth": 1700958195,
-    "marketCap": 1698471381,
+    "marketCap": 1698478739,
     "imageName": "bfusd.png",
     "startDate": "2025-08-20"
   },
@@ -1165,7 +1165,7 @@
     "name": "Marinade Staked SOL",
     "symbol": "msol",
     "marketCapAth": 1575419695,
-    "marketCap": 924806337,
+    "marketCap": 920387945,
     "imageName": "marinade_staked_sol.png",
     "startDate": "2021-08-25"
   },
@@ -1174,7 +1174,7 @@
     "name": "Solv Protocol BTC",
     "symbol": "solvbtc",
     "marketCapAth": 1540075364,
-    "marketCap": 1123148204,
+    "marketCap": 1108449714,
     "imageName": "solv_protocol_btc.png",
     "startDate": "2024-08-29"
   },
@@ -1183,7 +1183,7 @@
     "name": "Four",
     "symbol": "form",
     "marketCapAth": 1528781063,
-    "marketCap": 430400324,
+    "marketCap": 414945337,
     "imageName": "four.jpg",
     "startDate": "2025-08-29"
   },
@@ -1192,7 +1192,7 @@
     "name": "Polygon Bridged USDT (Polygon)",
     "symbol": "usdt",
     "marketCapAth": 1482313861,
-    "marketCap": 1422815795,
+    "marketCap": 1423985747,
     "imageName": "polygon_bridged_usdt__polygon_.png",
     "startDate": "2025-03-11"
   },
@@ -1201,7 +1201,7 @@
     "name": "Tether Gold",
     "symbol": "xaut",
     "marketCapAth": 1411782948,
-    "marketCap": 1405664861,
+    "marketCap": 1406274718,
     "imageName": "tether_gold.png",
     "startDate": "2020-01-27"
   },
@@ -1210,7 +1210,7 @@
     "name": "DeXe",
     "symbol": "dexe",
     "marketCapAth": 1363127658,
-    "marketCap": 551761258,
+    "marketCap": 537724276,
     "imageName": "dexe.png",
     "startDate": "2020-12-07"
   },
@@ -1219,7 +1219,7 @@
     "name": "Solv Protocol Staked BTC",
     "symbol": "xsolvbtc",
     "marketCapAth": 1106581323,
-    "marketCap": 329966851,
+    "marketCap": 325409832,
     "imageName": "solv_protocol_staked_btc.png",
     "startDate": "2024-10-30"
   },
@@ -1228,7 +1228,7 @@
     "name": "Binance Bridged USDC (BNB Smart Chain)",
     "symbol": "usdc",
     "marketCapAth": 1001687285,
-    "marketCap": 1048588657,
+    "marketCap": 1048727121,
     "imageName": "binance_bridged_usdc__bnb_smart_chain_.jpg",
     "startDate": "2025-03-06"
   },
@@ -1237,7 +1237,7 @@
     "name": "AB",
     "symbol": "ab",
     "marketCapAth": 982869397,
-    "marketCap": 658853498,
+    "marketCap": 658711066,
     "imageName": "ab.png",
     "startDate": "2025-06-13"
   },
@@ -1246,7 +1246,7 @@
     "name": "Vaulta",
     "symbol": "a",
     "marketCapAth": 981338075,
-    "marketCap": 667233019,
+    "marketCap": 650628935,
     "imageName": "vaulta.png",
     "startDate": "2025-06-05"
   },
@@ -1255,7 +1255,7 @@
     "name": "Wrapped BNB",
     "symbol": "wbnb",
     "marketCapAth": 969468175,
-    "marketCap": 1329702772,
+    "marketCap": 1292301189,
     "imageName": "wrapped_bnb.png",
     "startDate": "2024-12-28"
   },
@@ -1264,7 +1264,7 @@
     "name": "syrupUSDC",
     "symbol": "syrupusdc",
     "marketCapAth": 955689067,
-    "marketCap": 1139833700,
+    "marketCap": 1147042699,
     "imageName": "syrupusdc.png",
     "startDate": "2025-03-04"
   },
@@ -1273,7 +1273,7 @@
     "name": "Berachain",
     "symbol": "bera",
     "marketCapAth": 944331229,
-    "marketCap": 341647692,
+    "marketCap": 330329828,
     "imageName": "berachain.png",
     "startDate": "2025-02-06"
   },
@@ -1282,7 +1282,7 @@
     "name": "PAX Gold",
     "symbol": "paxg",
     "marketCapAth": 937464465,
-    "marketCap": 1097089162,
+    "marketCap": 1097490666,
     "imageName": "pax_gold.png",
     "startDate": "2020-08-01"
   },
@@ -1291,7 +1291,7 @@
     "name": "Bobo Coin",
     "symbol": "bobo",
     "marketCapAth": 137219597,
-    "marketCap": 24962995,
+    "marketCap": 23903213,
     "imageName": "bobo_coin.png",
     "startDate": "2024-07-10"
   },
@@ -1300,7 +1300,7 @@
     "name": "Nacho the Kat",
     "symbol": "nacho",
     "marketCapAth": 63611967,
-    "marketCap": 12739775,
+    "marketCap": 12284530,
     "imageName": "nacho_the_kat.png",
     "startDate": "2024-10-24"
   },
@@ -1309,7 +1309,7 @@
     "name": "Kasper",
     "symbol": "kasper",
     "marketCapAth": 41174948,
-    "marketCap": 1956518,
+    "marketCap": 1979936,
     "imageName": "kasper.png",
     "startDate": "2024-10-20"
   },
@@ -1318,15 +1318,23 @@
     "name": "Haedal Protocol",
     "symbol": "haedal",
     "marketCapAth": 0,
-    "marketCap": 28154599,
+    "marketCap": 26510292,
     "imageName": "haedal_protocol.jpg"
+  },
+  {
+    "id": "plasma",
+    "name": "Plasma",
+    "symbol": "xpl",
+    "marketCapAth": 0,
+    "marketCap": 1718465528,
+    "imageName": "plasma.png"
   },
   {
     "id": "story-2",
     "name": "Story",
     "symbol": "ip",
     "marketCapAth": 0,
-    "marketCap": 3678705879,
+    "marketCap": 2935821902,
     "imageName": "story.png"
   }
 ]
